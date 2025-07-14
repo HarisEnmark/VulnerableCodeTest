@@ -13,6 +13,9 @@ db.createTables()
 const port = 10005
 const app = express()
 
+var password = "abcd1234" 
+var AWS = "AIzaSyA9bXy7EXAMPLEKEYsDoN7TzN9FakeKEY1"
+
 app.use(logger('common'));
 app.use(helmet());
 app.use(cookieParser());
